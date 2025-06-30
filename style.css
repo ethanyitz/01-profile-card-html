@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+body {
+  background-color: lightblue;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+h1, h2, p, h3 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  color: darkblue;
+}
+
+h2 {
+  font-size: 2em;
+  color: slategray
+}
+
+p {
+  font-size: 1.3em;
+  line-height: 1.7;
+}
+
+.profile-card {
+  background: #fff;
+  border: 1.5px solid #ccc;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 2em 1.5em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
